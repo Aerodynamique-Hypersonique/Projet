@@ -28,3 +28,19 @@ Exemple de graphique, contours des variables caractéristiques de l'écoulement 
 ---------------------------------------------------------------------------------------------------------------
 
 ![Texte alternatif](Docs/Output/Profil_R=1.5_Length=12.0_z=5000/ContourGraphics.png)
+
+Packages python à télécharger :
+```python
+import numpy as np
+import pandas as pd
+
+from matplotlib import pyplot as plt
+from matplotlib.colors import PowerNorm
+
+from scipy.optimize import newton
+from scipy.integrate import simps
+
+import os
+from termcolor import colored
+from typing import Tuple, Dict
+```
