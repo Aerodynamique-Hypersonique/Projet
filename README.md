@@ -23,3 +23,5 @@ La simulation se fait via la classe _HypersonicObliqueShock_, qui prend en compt
 - **FreeFlowVelocity** : vitesse choisie par l'utilisateur
 
 L'ensemble des attributs et des méthodes permet de déterminer les propriétés de l'écoulement après le choc, de dimensionner la courbe de choc et les épaisseurs associées. Il permet également de suivre l'évolution des propriétés aux points de stagnation en amont et en aval du choc, ainsi que de calculer les coefficients de pression _C_p_, de traînée _C_x_ et de portance _C_z_. À l'instar d'_Ansys Fluent_, nous avons tenté de générer des contours de pression, de température et de densité.
+
+![Texte alternatif](Docs/Output/Profil_R=1.5_Length=12.0_z=5000/ContourGraphics.png)
